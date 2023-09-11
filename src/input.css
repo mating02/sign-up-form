@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Nordic';
+    src: url('/Nordic.otf') format('woff2');
+}
+
+@font-face {
+    font-family: 'modern';
+    src: url('/Stringtheory.ttf') format('woff2');
+}
+
+
