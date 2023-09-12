@@ -15,7 +15,11 @@ module.exports = {
         'darknightblue': 'rgb(0, 0, 171)'
       },
       height: {
-        'screen-1/3': '35vh'
+        'screen-2/5': '40vh',
+        'screen-3/5': '30vh'
+      },
+      maxHeight: {
+        'screen-2/5': '40vh'
       }
     },
     backgroundSize: {

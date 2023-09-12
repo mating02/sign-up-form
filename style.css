@@ -48,24 +48,24 @@ table {
 }
 
 input {
-    appearance: none;
     border:none;
     outline: none;
     background: none;
-}
-
-input[type="text"], 
-input[type="email"], 
-input[type="tel"], 
-input[type="password"] {
-    border-bottom: 1px solid white;
+    appearance: none;
+    box-shadow: none;
+    text-shadow: .2rem .1rem .1rem black;
     width: 100%;
+    border-bottom: 1px solid white;
+}
+input:focus {
+    outline: none;
 }
 
 .formside{
     display:flex;
     flex-direction: column;
     width: 60vw;
+    overflow:auto;
 }
 
 @font-face {
@@ -75,22 +75,22 @@ input[type="password"] {
 
 .description {
     width:100%;
-    height: calc(65vh/2);
+    height: 30vh;
     background: linear-gradient(to bottom, rgb(111, 255, 173), rgb(7, 138, 195),rgb(26, 86, 237), rgb(0, 0, 171));
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
     gap: 1rem;
-    font-family: 'modern', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'viking', sans-serif;
+    font-size: 1.3rem;
     font-weight: 700;
     color:aliceblue;
 }
 
 .buttonPart {
     width:100%;
-    height: calc(65vh/2);
+    height: 30vh;
     background: linear-gradient(to top, rgb(111, 255, 173), rgb(7, 138, 195),rgb(26, 86, 237), rgb(0, 0, 171));
     padding: 1.5rem;
     display:flex;
